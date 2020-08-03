@@ -1,0 +1,62 @@
+﻿#SideNotifications {
+    position: fixed;
+    right: -155px;
+    top: 170px;
+}
+
+.side-notification {
+    width: 185px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+    right: 0px;
+    transition: right 1s ease;
+    display: table;
+    z-index: 4000;
+    margin-bottom: 0.3em;
+}
+
+    .side-notification:hover {
+        right: 155px;
+        transition: right 1s ease;
+    }
+   
+    .side-notification .value {
+        width: 30px;
+        display: inline-block;
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: bold;
+        vertical-align: middle;
+        display: table-cell;
+        position:relative;
+    }
+
+    .side-notification .description {
+        width: 154px;
+        display: inline-block;
+        font-size: 0.9em;
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+
+/* Side Notification custom style colors */
+.side-notification-a {
+    background-color: #ee5e0b;
+    border: 2px solid #ff8139;
+    color: #fff;
+}
+
+.side-notification-b {
+    background-color: #303ea8;
+    border: 2px solid #306da8;
+    color: #fff;
+}
+
+.side-notification-c {
+    background-color: #367231;
+    border: 2px solid #42903b;
+    color: #fff;
+}
